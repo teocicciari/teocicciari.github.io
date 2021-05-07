@@ -23,14 +23,11 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-}
-
-.gallery img {
-  width: 400px;
+  align-items: center;
 }
 
 .gallery video {
-  width: 400px;
+  width: 300px;
 }
 
 /* Contact */

@@ -204,6 +204,7 @@ main {
 .text {
   font-size: 1.2rem;
   text-align: center;
+  padding: 20px;
 }
 
 .github {

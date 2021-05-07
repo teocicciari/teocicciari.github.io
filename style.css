@@ -102,16 +102,6 @@ main {
   left: 5%;
 }
 
-.quote {
-  font-size: 1.5rem;
-  align-items: center;
-  position: absolute;
-  text-transform: capitalize;
-  font-style: italic;
-  bottom: 2%;
-  right: 5%;
-}
-
 .photo {
   height: 200px;
   border-radius: 100px;

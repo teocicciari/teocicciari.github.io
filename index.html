@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet"> 
+    
+    <title>Teo Cicciari - Portafolio</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre mi</a></li>
+            <li><a href="#proyect">Proyectos</a></li>
+            <li><a href="#contact">Contactar</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <a href="#about"><img class="photo" src="/images/teo.jpg" alt=""></a>
+            <div class="home-heading">
+                <div class="text-1">Hola! Mi nombre es</div>
+                <div class="text-2">Teo Cicciari</div>
+                <a href="#contact">Contratar</a>
+            </div>
+        </div>
+        <div class="quote">
+            <p>"Take a sad song and make it better"</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">SOBRE MI</h1>
+        <div id="pic">
+            <img src="/images/teo.jpg" alt="">
+            <div id="intro">
+                <h2>Teo Cicciari</h2>
+                <p>Me apasiona el ajedrez, esta disiplina me acompaña desde muy pequeño y me dio (entre otras cosas) el gusto por resolver problemas, de manera que cuando conocí el mundo de la programación me agrado bastante, esta lleno de problemas!
+                <br>Actualmente estoy estudiando <b>Ciencias de la Computación</b> en la Universidad Nacional de Córdoba, cursando el 3er año a la distancia.
+                <br><br><b><i>Lo que puedo aportar a tu equipo:</i></b></p>
+                <li>Creatividad a la hora de resolver problemas.</li>
+                <li>Me gusta el orden y soy prolijo.</li>
+                <li>Trabajo bien en equipo y empujo siempre para adelante.</li>
+                <p>Hoy en día estoy incursionando en el mundo del diseño web, con ganas de aprender más, lo cual tu empresa me puede aportar seguramente pero lo que más me gustaría es que me den la posibilidad de hacer algo significativo, que tenga un impacto positivo en el mundo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyect">
+        <h1 class="headings">PROYECTOS</h1>
+        <h2>AJEDREZ RETRO</h2>
+        <div class="gallery">
+            <video class="video" src="videos/chess.mp4" controls poster="images/retrochess.png"></video>
+            <div class="text">
+                <p> Ajedrez Retro es un ajedrez para la terminal de linux, escrito en C, completamente desde 0. Tiene una interfaz en código ASCII que recibe jugadas que ingresa el usuario y responde con una pequeña IA.
+                <br><br> Empecé este proyecto mientras cursaba Algoritmos y Estructuras de Datos II para reforzar los conceptos de la materia, y mientras mis habilidades en C y programación mejoraron le fuí agregando cosas</p>
+                <a class="github" href="https://github.com/teocicciari/Retro-Chess">Repositorio en github</a>
+            </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACTAR</h1>
+        <form class="form" action="https://formsubmit.co/teocicciari@gmail.com" method="POST">
+            <input type="text" name="name" class="input" placeholder="Nombre">
+            <input type="email" name="email" class="input" placeholder="Email">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://teocicciari.github.io/thank-you.html">
+            <textarea name="msg" id="msg" cols="30" rows="10"
+            placeholder="Su mensaje"></textarea>
+            <input type="submit" value="ENVIAR" id="send">
+        </form>
+    </section>
+
+</body>
+</html>

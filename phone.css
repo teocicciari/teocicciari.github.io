@@ -1,0 +1,42 @@
+/* Home */
+
+.headings {
+  font-size: 1.2rem;
+}
+
+.home-heading {
+  font-size: 1.5rem;
+}
+
+/* About */
+
+#pic img {
+  width: 250px;
+  height: 250px;
+}
+
+#intro h2 {
+  font-size: 1.5rem;
+}
+
+#intro p {
+  font-size: 1rem;
+}
+
+#intro li {
+  font-size: 1rem;
+}
+
+/* Proyect */
+
+.gallery img {
+  width: 250px;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+#proyect h2 {
+  font-size: 1rem;
+}

@@ -3,7 +3,7 @@
   font-family: "Titillium Web", sans-serif;
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
-  --bg-primary: #23232e;
+  --bg-primary: #23232eb4;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
 }
@@ -21,6 +21,15 @@ body {
 
 main {
   padding: 1rem;
+}
+
+.headings {
+  padding: 0px 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 10px 0px;
+  line-height: 2;
 }
 
 /* Navbar */
@@ -71,15 +80,6 @@ main {
   color: white;
 }
 
-.text-1 {
-  font-size: 1.5rem;
-  margin: 5px;
-}
-.text-2 {
-  margin: 5px 0 10px 0;
-  font-size: 3rem;
-}
-
 #home::before {
   content: "";
   position: absolute;
@@ -112,13 +112,14 @@ main {
   justify-content: flex-end;
 }
 
-.headings {
-  padding: 0px 10px;
-  text-align: center;
-  font-weight: bold;
+.text-1 {
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.text-2 {
+  margin: 5px 0 10px 0;
   font-size: 3rem;
-  margin: 10px 0px;
-  line-height: 2;
 }
 
 #home .main .home-heading a {

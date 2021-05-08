@@ -72,13 +72,12 @@ main {
 }
 
 .text-1 {
-  padding: 0 10px;
   font-size: 1.5rem;
+  margin: 5px;
 }
 .text-2 {
-  padding: 0 10px;
+  margin: 5px 0 10px 0;
   font-size: 3rem;
-  margin-top: 0;
 }
 
 #home::before {
@@ -109,6 +108,7 @@ main {
 
 .home-heading {
   text-align: center;
+  justify-content: flex-end;
 }
 
 .headings {

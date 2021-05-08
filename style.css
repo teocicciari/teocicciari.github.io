@@ -107,6 +107,7 @@ main {
 }
 
 .home-heading {
+  padding: 10px;
   text-align: center;
   justify-content: flex-end;
 }
